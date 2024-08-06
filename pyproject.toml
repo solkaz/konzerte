@@ -1,0 +1,15 @@
+[tool.poetry]
+description = "My concert tracker"
+authors = ["Jeff Held <jh.software.developer@gmail.com>"]
+readme = "README.md"
+package-mode = false
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.0"
+sqlmodel = "^0.0.21"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
