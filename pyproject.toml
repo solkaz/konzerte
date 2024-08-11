@@ -9,6 +9,7 @@ license = "GPLv3"
 python = "^3.12"
 fastapi = "^0.112.0"
 sqlmodel = "^0.0.21"
+jinja2 = "^3.1.4"
 
 [build-system]
 requires = ["poetry-core"]

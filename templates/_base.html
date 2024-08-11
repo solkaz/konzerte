@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', path='/styles.css') }}" />
+    <title>Solkaz | Konzerte</title>
+  </head>
+  <body>
+    <header>
+      <a href="{{url_for('root')}}">Home</a>
+    </header>
+    <main>{% block content %}{% endblock %}</main>
+    <footer>Made in Berlin.</footer>
+  </body>
+</html>
